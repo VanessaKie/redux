@@ -26,7 +26,7 @@ class App extends React.Component{
 }
 
 const mapStateToProps = (state) => {
-  return {display: state};
+  return {display: state.display};
 }
 
 connect(mapStateToProps, null) (App);
